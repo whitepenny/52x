@@ -1,0 +1,7 @@
+<svg width="273px" height="356px" viewBox="0 0 273 356" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg_path">
+    <g id="svg_path" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <ellipse class="circle circle_1" fill="#FF0000" cx="267.59553" cy="4.5" rx="4.91057585" ry="4.5"></ellipse>
+        <ellipse class="circle circle_2" fill="#FF0000" cx="4.91057585" cy="351.5" rx="4.91057585" ry="4.5"></ellipse>
+        <path d="M267.920973,5 L267.827829,94.1045335 C267.770139,149.29216 223.01554,194 167.827883,194 L105,194 C49.771525,194 5,238.771525 5,294 L5,352" class="path" stroke="#FF0606" stroke-width="2"></path>
+    </g>
+</svg>

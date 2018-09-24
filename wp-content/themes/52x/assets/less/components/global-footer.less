@@ -1,0 +1,85 @@
+.footer {
+  background: @black;
+  color: @white;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  line-height: 1.8;
+  padding: 40px 0;
+  text-transform: uppercase;
+
+  @media @min_md {
+    font-size: 12px;
+    padding: 60px 0;
+  }
+
+  //
+
+  a {
+    .block;
+
+    color: @white;
+
+    &:hover,
+    &:focus {
+      color: @red;
+    }
+  }
+}
+
+
+.footer_column {
+
+  @media @max_lg {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+.footer_contact {
+
+  @media @min_lg {
+    .flex;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+
+.footer_phone_numbers {
+  flex-grow: 1;
+
+  @media @min_lg {
+    text-align: right;
+  }
+}
+
+//
+
+.footer_social {
+  .flex;
+
+  // flex-grow: 1;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 20px 0 0;
+
+  @media @min_lg {
+    margin: 0 0 0 20px;
+  }
+}
+
+.footer_social_link {
+  .inline_block;
+
+  height: 40px;
+  width: 40px;
+
+  // background: @gray_90;
+  margin: 0 3px;
+  line-height: 38px;
+  text-align: center;
+
+  &:hover {
+    background: @red_dark;
+  }
+}

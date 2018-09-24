@@ -1,0 +1,7 @@
+<svg width="568px" height="292px" viewBox="0 0 568 292" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg_header">
+    <g id="svg_header" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M4,7 L4,38 C4,93.228475 48.771525,138 104,138 L480.778078,138 C526.740276,138 564,175.259724 564,221.221922 L563,287" class="path" stroke="#FF0000" stroke-width="2"></path>
+        <circle class="circle circle_1" fill="#FF0606" fill-rule="nonzero" cx="4.5" cy="4.5" r="4.5"></circle>
+        <circle class="circle circle_2" fill="#FF0606" fill-rule="nonzero" cx="563.5" cy="287.5" r="4.5"></circle>
+    </g>
+</svg>

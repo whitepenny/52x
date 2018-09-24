@@ -1,0 +1,170 @@
+.case_study {
+  padding: 60px 0;
+
+  @media @min_md {
+    padding: 80px 0;
+  }
+
+  @media @min_lg {
+    padding: 100px 0;
+  }
+
+  @media @min_xl {
+    padding: 120px 0;
+  }
+
+  &:nth-child(odd) {
+    background: @gray_10;
+  }
+}
+
+.case_study_row {}
+
+.case_study_cell {}
+
+.case_study_label {
+  .block;
+
+  text-align: center;
+
+  span {
+    .inline_block;
+    .opensans_condensed;
+
+    border-bottom: 2px solid @red;
+    color: @black;
+    font-size: 22px;
+
+    @media @min_md {
+      font-size: 24px;
+    }
+
+    @media @min_lg {
+      font-size: 26px;
+    }
+  }
+}
+
+.case_study_title {
+  .opensans_condensed;
+
+  color: @black;
+  font-size: 32px;
+  margin: 20px 0 0;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media @min_md {
+    font-size: 40px;
+  }
+
+  @media @min_lg {
+    font-size: 60px;
+  }
+
+  @media @min_xl {
+    font-size: 80px;
+  }
+}
+
+.case_study_columns {
+  // margin-top: 40px;
+
+  @media @min_md {
+    margin-top: 80px;
+  }
+
+  @media @min_lg {
+    margin-top: 100px;
+  }
+}
+
+.case_study_column {
+
+  @media @max_md {
+    margin-top: 40px;
+  }
+
+  @media @min_md @and_max_lg {
+    padding-right: 20px;
+  }
+}
+
+.case_study_column_title {
+  .opensans_condensed;
+
+  color: @red;
+  font-size: 26px;
+  line-height: 1.2;
+  margin: 0 0 10px;
+
+  @media @min_md {
+    font-size: 30px;
+  }
+
+  @media @min_lg {
+    font-size: 36px;
+  }
+}
+
+.case_study_column_content {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 10px 0 0;
+}
+
+.case_study_arrow {
+  align-self: center;
+
+  @media @max_lg {
+    display: none;
+  }
+
+  span {
+    .block;
+    .relative;
+
+    width: 70%;
+    max-width: 220px;
+    height: 2px;
+
+    background: @red;
+    margin: 0 auto;
+
+    &:before,
+    &:after {
+      .absolute;
+      .block;
+
+      height: 8px;
+      width: 8px;
+
+      top: 0;
+
+      border: 1px solid @red;
+      border-width: 2px 2px 0 0;
+      content: '';
+      margin: -4px 0 0;
+
+      @media @min_lg {
+        height: 10px;
+        width: 10px;
+
+        bottom: 2px;
+      }
+    }
+
+    &:before {
+      left: 0;
+
+      transform: rotate(-135deg);
+    }
+
+    &:after {
+      right: 0;
+
+      transform: rotate(45deg);
+    }
+  }
+}

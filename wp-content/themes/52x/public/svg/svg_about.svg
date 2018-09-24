@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="344px" height="324px" viewBox="0 0 344 324" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>svg_about</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="svg_about">
+            <ellipse id="Oval" fill="#FF0606" fill-rule="nonzero" cx="338.59553" cy="4.5" rx="4.91057585" ry="4.5" class="circle circle_1"></ellipse>
+            <ellipse id="Oval" fill="#FF0606" fill-rule="nonzero" cx="4.91057585" cy="319.5" rx="4.91057585" ry="4.5" class="circle circle_2"></ellipse>
+            <path d="M338.789302,5 L338.789302,74.880923 C339.407351,130.10594 295.139657,175.375689 239.91464,175.993738 C239.541629,175.997913 239.168598,176 238.795564,176 L105.197568,176 C49.9690934,176 5.19756839,220.771525 5.19756839,276 L5.19756839,319" id="Shape" stroke="#FF2424" stroke-width="2" class="path"></path>
+        </g>
+    </g>
+</svg>

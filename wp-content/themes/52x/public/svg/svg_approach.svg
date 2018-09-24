@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="599px" height="350px" viewBox="0 0 599 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>svg_approach</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="svg_approach">
+            <path d="M5,8 L5,55.0306091 C5,110.259084 49.771525,155.030609 105,155.030609 L494,155.030609 C549.228475,155.030609 594,199.802134 594,255.030609 L594,346" id="Shape" stroke="#FF0606" stroke-width="2" class="path"></path>
+            <circle id="Oval" fill="#FF0606" fill-rule="nonzero" cx="4.5" cy="4.5" r="4.5" class="circle circle_1"></circle>
+            <path d="M594.5,350 C596.985281,350 599,347.985281 599,345.5 C599,343.014719 596.985281,341 594.5,341 C592.014719,341 590,343.014719 590,345.5 C590,347.985281 592.014719,350 594.5,350 Z" id="Shape" fill="#FF0606" fill-rule="nonzero" class="circle circle_2"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg width="455px" height="364px" viewBox="0 0 455 364" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg_experts">
+    <g id="svg_experts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M4,8 L4,55.0306091 C4,110.259084 48.771525,155.030609 104,155.030609 L351,155.030609 C406.228475,155.030609 451,199.802134 451,255.030609 L451,360" class="path" stroke="#FF0606" stroke-width="2"></path>
+        <circle class="circle circle_1" fill="#FF0606" cx="4.5" cy="4.5" r="4.5"></circle>
+        <path d="M450.5,364 C452.985281,364 455,361.985281 455,359.5 C455,357.014719 452.985281,355 450.5,355 C448.014719,355 446,357.014719 446,359.5 C446,361.985281 448.014719,364 450.5,364 Z" class="circle circle_2" fill="#FF0606"></path>
+    </g>
+</svg>

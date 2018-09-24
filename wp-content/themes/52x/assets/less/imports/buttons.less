@@ -1,0 +1,139 @@
+.button_base(@bg:@white, @color:@black) {
+  .opensans;
+  .inline_block;
+  .transition_link;
+
+  border: 2px solid @bg;
+  background: @bg;
+  color: @color;
+  font-size: 14px;
+  letter-spacing: 0.3em;
+  line-height: 1;
+  padding: 20px 35px;
+  text-transform: uppercase;
+
+  @media @min_lg {
+    font-size: 15px;
+    padding: 25px 50px;
+  }
+
+  @media @min_xl {
+    // padding: 25px 65px;
+  }
+}
+
+.button_red() {
+  .button_base(@red, @white);
+}
+
+.button_hover_red() {
+
+  &:hover,
+  &:focus {
+    // .button_base(@red, @white);
+    background: transparent;
+    color: @red;
+  }
+}
+
+.button_black() {
+  .button_base(@black, @white);
+}
+
+.button_hover_black() {
+
+  &:hover,
+  &:focus  {
+    // .button_base(@black, @white);
+    background: transparent;
+    color: @black;
+  }
+}
+
+.button_white() {
+  .button_base(@white, @red);
+}
+
+.button_hover_white() {
+
+  &:hover,
+  &:focus  {
+    // .button_base(@white, @white);
+    background: transparent;
+    color: @white;
+  }
+}
+
+//
+
+.button_bordered(@border:@white, @color:@black) {
+  .opensans;
+  .inline_block;
+  .transition_link;
+
+  background: transparent;
+  border: 2px solid @border;
+  color: @color;
+  font-size: 14px;
+  letter-spacing: 0.3em;
+  line-height: 1;
+  padding: 20px 35px;
+  text-transform: uppercase;
+
+  @media @min_lg {
+    font-size: 15px;
+    padding: 25px 50px;
+  }
+
+  @media @min_xl {
+    padding: 25px 60px;
+  }
+}
+
+.button_bordered_red() {
+  .button_bordered(@red, @red);
+}
+
+.button_bordered_hover_red() {
+
+  &:hover,
+  &:focus  {
+    background: @red;
+    color: @white;
+  }
+}
+
+.button_bordered_white() {
+  .button_bordered(@white, @white);
+}
+
+.button_bordered_hover_white() {
+
+  &:hover,
+  &:focus  {
+    background: @white;
+    color: @red;
+  }
+}
+
+// .button_hover_blue() {
+//
+//   &:hover,
+//   &:focus {
+//     // border-color: @blue_dark;
+//     // color: @blue_dark;
+//     background-color: @blue_dark;
+//     border-color: @blue_dark;
+//     color: @white;
+//   }
+// }
+//
+// .button_hover_white() {
+//
+//   &:hover,
+//   &:focus {
+//     background-color: @white;
+//     // color: @black;
+//     color: @blue_dark;
+//   }
+// }

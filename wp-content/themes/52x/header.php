@@ -21,8 +21,8 @@ $scripts_body = get_field( 'scripts_body', 'option' );
 
       <header class="header js-header <?php echo ( is_front_page() ) ? 'flipped' : ''; ?>">
         <a href="<?php echo get_home_url(); ?>" class="header_logo">
-          <span class="icon logo_white"></span>
-          <span class="icon logo_black"></span>
+          <span class="icon logo_reversed"></span>
+          <span class="icon logo"></span>
           <span class="screenreader"><?php echo $main_title; ?></span>
         </a>
         <div class="main_nav">
